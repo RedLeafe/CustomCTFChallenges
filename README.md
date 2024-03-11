@@ -1,3 +1,3 @@
 # My CTF Rev Challenges
-These are a few easy rev challenges that I am making for tech symposium. <br />
-I'm aiming to add some more challenges in the future if I work on more CTFs
+These are a few rev challenges that I am make both for events and for personal use. <br />
+I'm aiming to add some more challenges in the future spanning across a few of my favorite categories.

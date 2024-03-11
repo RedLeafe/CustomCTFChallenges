@@ -1,0 +1,30 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 727, in script
+    $ change = player.check_password(player_password.strip())
+  File "game/script.rpy", line 727, in <module>
+    $ change = player.check_password(player_password.strip())
+  File "game/script.rpy", line 189, in check_password
+    if Fun[7] != (int(Hope[6]) ** 4) + (int(Hope[8]) * 7):
+ValueError: invalid literal for int() with base 10: 'h'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 727, in script
+    $ change = player.check_password(player_password.strip())
+  File "/Users/ryan/Desktop/renpy-7.4.11-sdk/renpy/ast.py", line 928, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "/Users/ryan/Desktop/renpy-7.4.11-sdk/renpy/python.py", line 2245, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/script.rpy", line 727, in <module>
+    $ change = player.check_password(player_password.strip())
+  File "game/script.rpy", line 189, in check_password
+    if Fun[7] != (int(Hope[6]) ** 4) + (int(Hope[8]) * 7):
+ValueError: invalid literal for int() with base 10: 'h'
+
+Darwin-23.1.0-x86_64-i386-64bit
+Ren'Py 7.4.11.2266
+SwiftDatingSimulator 1.0
+Tue Mar  5 19:55:09 2024

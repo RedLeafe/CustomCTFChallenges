@@ -1,0 +1,11 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 179: invalid syntax
+            if (!(isinstance(Hope[6], int))):
+                 ^
+    
+
+Ren'Py Version: Ren'Py 7.4.11.2266
+Tue Mar  5 20:01:23 2024
