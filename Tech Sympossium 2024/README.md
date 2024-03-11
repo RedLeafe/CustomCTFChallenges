@@ -1,5 +1,5 @@
 # Tech Sympossium 2024
-These are the 3 reverse engineering challenges that I made for the Tech Sympossium Conference. <br />
+These are the 3 reverse engineering challenges that I made for the [Tech Sympossium Conference](https://techsymposium.calpolyswift.org/). <br />
 Just a quick overview of each of these: <br/> 
 - Secret Agent is a compiled c program where the user just has to run the "strings" linux command which outputs the flag in NATO<br/>
 - Power Piano is a powershell script where the user has to look over how the code is encrypting their keys and then reverse the given encrypted string.  If they enter this clear text into the game then it will output the flag.<br/>
